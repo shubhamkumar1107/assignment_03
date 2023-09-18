@@ -1,3 +1,44 @@
 *{
-    background-color: bisque;
+    background-color: #1f1f1f;
+}
+nav{
+    background-color: #242b2e;
+    width: 150px;
+    min-height: 100vh;
+    float: left;   /* this make navigation float left side of the body*/
+    margin-top: 0px;
+    padding-top: 0;
+}
+ nav>img{  /* important concept i.e.--> [nav>img{}] */
+    width:100%;
+    background-color: #5da3fa;
+}
+a{
+    background-color: #242b2e;
+    color:white;
+    font-size: medium;
+    text-decoration: none;
+    display: block;
+    padding:7px 25px;
+    border-bottom:1px solid black;
+}
+h1{
+    color:rgb(55, 55, 183);
+    text-align: center;
+}
+.div1{
+    color:white;
+    font-size: 20px;
+    margin:0px 25px 5px 200px;
+}
+.div2{
+    text-align: center;
+}
+.div2>img{
+    width:500px;
+}
+.div3{
+    color:white;
+    font-size: 20px;
+    margin:0px 25px 5px 200px;
 }
