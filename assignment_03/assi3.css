@@ -34,7 +34,7 @@ h1{
 .div2{
     text-align: center;
 }
-.div2>img{
+.div2>img{  /* important concept */
     width:500px;
 }
 .div3{
